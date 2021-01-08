@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<link rel="icon" href="/main/favicon.ico" type="image/ico"/>
+<title>member page test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"> 
+<link rel="stylesheet" type="text/css" href="images/Layout.css"> 
+<script language="javascript" type="text/javascript" src="images/jquery-1.4.2.js"></script> 
+
+<body>
+</head>
+
+<body>
+	
+  <!--↓wrapper↓--> 
+  <div class="WRAPPER"> 
+    <div class="Area"></div> 
+
+
+    <!--TOP--> 
+      <div class="menu">
+       <div class="flex-container">
+          <div class="item_icon"><image src="images/menu.svg"></div>
+          <div class="item"> Hi，歡迎新朋友，新會員首購8折</div>
+          <div class="item_icon"><image src="images/cart.svg"></div>
+        </div> 
+       </div>
+
+    <div class="card">
+      <div class="name">
+        <div class="flex-container">
+          <div class="item_avatar"><img src="images/avatar.svg"></div>
+          <div class="item_info">游*艾<br/>0987 *** 321</div>
+         </div> 
+       </div> 
+       <div class="card_bg"><img src="images/card.svg"></div>
+     </div>
+          
+    <div class="coupon">折價券<br/><span>200000</span>張</div>
+
+
+
+
+     <!--ORDER--> 
+  <div class="my_order Rectangle">
+      <div class="flex-container title_border">
+        <div class="item_title">我的訂單</div>
+        <div class="item_secondary_button">查看全部<img src="images/arrow-right.svg"></div>
+      </div>
+
+    <div class="status">
+      <div class="flex-container">
+        <div class="item_process">
+          <div class="item_order_process"><img src="images/processsing.svg"></div>
+          <div class="item_order_process">處理中(0)</div>
+        </div>
+        <div class="item_process">
+          <div class="item_order_process"><img src="images/shipping.svg"></div>
+          <div class="item_order_process">已完成(9)</div>
+        </div>
+        <div class="item_process">
+          <div class="item_order_process"><img src="images/completed.svg"></div>
+          <div class="item_order_process">已完成(9)</div>
+        </div>
+        <div class="item_process">
+          <div class="item_order_process"><img src="images/cancel.svg"></div>
+          <div class="item_order_process">取消/退貨(9)</div>
+        </div>
+    </div>
+  </div>
+    </div>
+
+
+<!--ORDER--> 
+<div class="dashboard Rectangle">
+
+  <div class="flex-container">
+
+     <div class="item_tab"><a href="javascript:void(0)" onclick="openCity(event, '我的收藏');">
+      <div class="tablink tab-topbar">我的收藏</div>
+    </a></div>
+     <div class="item_tab"><a href="javascript:void(0)" onclick="openCity(event, '瀏覽紀錄');">
+      <div class="tablink tab-topbar">瀏覽紀錄</div>
+    </a></div>
+    <div class="item_tab"> <a href="javascript:void(0)" onclick="openCity(event, '買過商品');">
+      <div class="tablink tab-topbar">買過商品</div>
+    </a></div>
+    </div>
+
+
+<div id="我的收藏" class="city">
+  <div class="information flex-container">
+     <div class="item_dashboard_info">
+     	<div class="container">
+        <div class="indicator"><div class="pie"></div></div>
+        <div id="slice2"><div class="pie"></div></div>
+        <div id="slice3"><div class="pie"></div></div>
+        <div id="slice4"><div class="pie"></div></div>
+        <div id="slice5"><div class="pie"></div></div>
+        <div class="after"><div class="pie_number"><span>4</span><br/>項商品</div></div>
+        
+     </div>
+    </div>
+
+     <div class="item_dashboard_info">
+        <div class="flex-container">
+          <div class="item_list_circle"><div class="circle"></div></div>
+          <div class="item_list">降價(1)</div>
+        </div>
+         <div class="flex-container">
+          <div class="item_list_circle"><div class="circle" style="background-image: linear-gradient(to bottom, #977df0, #7461f0);"></div></div>
+          <div class="item_list">活動中(1)</div>
+        </div>
+         <div class="flex-container">
+          <div class="item_list_circle"><div class="circle" style="background-image: linear-gradient(to bottom, #66c7ff 0%, #4a9bff);"></div></div>
+          <div class="item_list">新開賣(1)</div>
+        </div>
+         <div class="flex-container">
+          <div class="item_list_circle"><div class="circle" style="background-image: linear-gradient(to bottom, #ffd13c, #ffb31e);"></div></div>
+          <div class="item_list">即將售完(1)</div>
+        </div>
+    </div>
+  </div>
+
+   <div class="button">查看全部<img src="images/arrow-right.svg"></div>
+
+</div>
+
+
+<div id="瀏覽紀錄" class="city" style="display:none">
+  	<div class="dashboard-product flex-container">
+    <div class="item-3product">
+    	<img src="images/blue.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div>
+    <div class="item-3product">
+    	<img src="images/blue.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div>
+    <div class="item-3product">
+    	<img src="images/blue.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div>
+  	</div>
+
+  	   <div class="button">查看全部<img src="images/arrow-right.svg"></div>
+  </div>
+
+
+<div id="買過商品" class="city" style="display:none">
+  	<div class="dashboard-product flex-container">
+    <div class="item-3product">
+    	<img src="images/pd-1.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div>
+    <div class="item-3product">
+    	<img src="images/pd-1.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div>
+    <div class="item-3product">
+    	<img src="images/pd-1.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div>
+  	</div>
+
+  	   <div class="button">查看全部<img src="images/arrow-right.svg"></div>
+  </div>
+
+
+
+</div>
+
+ <!--SERVICE--> 
+  <div class="my_order Rectangle">
+    <div class="flex-container title_border">
+        <div class="item_title">我的服務</div>
+        </div>
+
+    <div class="status">
+      <div class="flex-container">
+        <div class="item_process">
+          <div class="item_order_process"><img src="images/user-edit.svg"></div>
+          <div class="item_order_process">會員資料</div>
+        </div>
+        <div class="item_process">
+          <div class="item_order_process"><img src="images/payment-set.svg"></div>
+          <div class="item_order_process">結帳設定</div>
+        </div>
+        <div class="item_process">
+          <div class="item_order_process"><img src="images/customer-center.svg"></div>
+          <div class="item_order_process">幫助中心</div>
+        </div>
+        <div class="item_process">
+          <div class="item_order_process"><img src="images/settting.svg"></div>
+          <div class="item_order_process">設定</div>
+        </div>
+    </div>
+  </div>
+    </div>
+
+
+<!--SOCIAL MEDIA--> 
+  <div class="Rectangle">
+  
+    <div class="status">
+      <div class="flex-container">
+        <div class="item_sns"><img src="images/facebook.svg"></div>
+        <div class="item_sns"><img src="images/instagram.svg"></div>
+        <div class="item_sns"><img src="images/line.svg"></div>
+        <div class="item_sns"><img src="images/share.svg"></div>
+    </div>
+  </div>
+    </div>
+
+
+<!--BN--> 
+<img src="images/banner.jpg" style="width: 100%;">
+
+
+<!--PRODUCT--> 
+  <div class="my_order Rectangle">
+    <div class="flex-container title_border">
+        <div class="item_title" style="color:#666ad1;">我的推薦</div>
+        <div class="item_secondary_button">查看全部<img src="images/arrow-right.svg"></div>
+        </div>
+
+	<div class="two-product flex-container">
+    <div class="item-two-product">
+    	<img style="width: 100%" src="images/blue.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="price">
+    		<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div></div>
+
+    <div class="item-two-product">
+    	<img style="width: 100%" src="images/blue.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="price">
+    		<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div></div>
+	
+
+	<div class="item-two-product">
+    	<img style="width: 100%" src="images/blue.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="price">
+    		<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div></div>
+
+    <div class="item-two-product">
+    	<img style="width: 100%" src="images/blue.jpg">
+    	<div class="product-title">六色質感大地色眼影盤 新色上市 六色質</div>
+    	<div class="price">
+    		<div class="flex-container">
+    	<div class="product-price">$2,400</div>
+    	<div class="product-icon"><img src="images/cart-24px.svg"></div></div></div></div>
+	</div>
+
+
+	
+	</div>
+    </div>
+
+<div class style="height: 50px" ="space"></div>
+
+
+<!--navBar--> 
+  <div class="navBar">
+       <div class="flex-container">
+          <div class="item_nav">
+               <div class="item_nav_icon"><img src="images/home.svg"></div>
+               <div class="item_nav_icon" style="opacity: 50%">首頁</div>
+          </div>
+          <div class="item_nav">
+               <div class="item_nav_icon"><img src="images/favorite.svg"></div>
+               <div class="item_nav_icon" style="opacity: 50%">我的收藏</div>
+          </div>
+          <div class="item_nav">
+               <div class="item_nav_icon"><img src="images/member.svg"></div>
+               <div class="item_nav_icon" style="opacity: 70%">會員專區</div>
+          </div>
+          <div class="item_nav">
+               <div class="item_nav_icon"><img src="images/message.svg"></div>
+               <div class="item_nav_icon" style="opacity: 50%">訊息</div>
+          </div>
+          <div class="item_nav">
+               <div class="item_nav_icon"><img src="images/search.svg"></div>
+               <div class="item_nav_icon" style="opacity: 50%">搜尋</div>
+          </div>
+          
+        </div> 
+       </div>
+
+
+    </div> 
+  <!--↑wrapper↑--> 
+
+  <script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" tab-border-highlight", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " tab-border-highlight";
+}
+</script>
+
+
+
+
+</body>
+</html>
